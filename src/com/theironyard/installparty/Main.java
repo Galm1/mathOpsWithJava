@@ -15,18 +15,19 @@ public class Main {
            double operand1 = nums[0];
            double operand2 = nums[1];
 
-           double sum = operand1 + operand2;
-           double difference = operand1 - operand2;
-           double division = operand1 / operand2;
-           double multiplication = operand1 * operand2;
-           double remainder = operand1 % operand2;
+           showResults(operand1, operand2);
 
-        System.out.println("the sum is "+sum + ", " + "the difference is "+difference + ", " + "the quotient is "+division + ", " + "the product is "+multiplication + ", " + "and the remainder is "+remainder);
+    }
+    public static void showResults(double operand1, double operand2) {
+
+        double sum = operand1 + operand2;
+        double difference = operand1 - operand2;
+        double division = operand1 / operand2;
+        double multiplication = operand1 * operand2;
+        double remainder = operand1 % operand2;
+
+        System.out.println("the sum is " + sum + ", " + "the difference is " + difference + ", " + "the quotient is " + division + ", " + "the product is " + multiplication + ", " + "and the remainder is " + remainder);
     }
 
-//    public class void showResults(double sum, double difference, double division, double multiplication, double remainder) {
-//        System.out.println(sum + " ," + difference + " ," + division + " ," + multiplication + " ," + remainder);
-//
-//    }
     }
 
